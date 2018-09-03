@@ -59,3 +59,5 @@ foreach ($backup_files as $key => $backup_file) {
 	$url = str_replace ( ' ', '%20', $url);
 	$response = $client->request('PUT',  $url,  $file );
 }
+
+exit();
